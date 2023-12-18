@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Затерянные в лабиринте времени</title>
+    <link rel="stylesheet" href="star_or_dark.css">
+    <style>
+      @font-face {
+          font-family: "Roboto Regular";
+          src: url("ofont.ru_Montserrat.ttf");
+      }
+    </style>
+</head>
+<body>
+  <div class="content">
+    <p id="description"></p>
+    <br>
+    <div class="buttons-container">
+      <button class="star" id="starButton" onclick="choose('star')">Войти в дверь, сверкающую как звезда              </button>
+      <button class="dark" id="darkButton" onclick="choose('dark')">Проникнуть через темную дверь, поглощенную мраком </button>
+    </div>
+    <script src="star_or_dark.js"></script>
+  </div>
+</body>
+</html>

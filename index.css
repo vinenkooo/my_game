@@ -1,0 +1,66 @@
+body {
+    background-image: url('1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat Black', sans-serif;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden; 
+    max-width: 700px;
+    width: 90%;
+    margin: auto; 
+}
+
+h1, p {
+    font-family: 'Montserrat Black', sans-serif;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 200px;
+    cursor: pointer;
+    font-family: 'Montserrat Black', sans-serif;
+    background-color: #546376;
+    color: white;
+    border-radius: 10px;
+    border: none; 
+}
+
+button:hover {
+    background-color: #285148;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 100%;
+        padding: 10px; 
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
+
